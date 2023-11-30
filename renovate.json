@@ -9,7 +9,7 @@
   "packageRules": [
     {
       "matchPaths": ["*/dev/**"],
-      "groupName": "dev"
+      "additionalBranchPrefix": "dev"
     },
     {
       "matchManagers": ["github-actions"],
