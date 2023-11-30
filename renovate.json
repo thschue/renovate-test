@@ -8,7 +8,7 @@
   "addLabels": ["dependencies"],
   "packageRules": [
     {
-      "matchPaths": ["*/dev/*"],
+      "matchPaths": ["*/dev/**"],
       "groupName": "dev"
     },
     {
