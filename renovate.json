@@ -10,7 +10,8 @@
     {
       "matchPaths": ["*/dev/**"],
       "packagePatterns": [".*"],
-      "additionalBranchPrefix": "dev"
+      "additionalBranchPrefix": "dev-"
+      "commitMessageSuffix": "(dev)"
     },
     {
       "matchManagers": ["github-actions"],
